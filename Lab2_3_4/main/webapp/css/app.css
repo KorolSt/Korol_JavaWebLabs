@@ -1,0 +1,50 @@
+.gradient-custom-for-hr {
+    /* fallback for old browsers */
+    background: #5ee7df;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to top, rgba(94, 31, 223, 0.5), rgba(80, 144, 202, 0.5));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to top, rgba(94, 231, 223, 0.5), rgba(180, 144, 202, 0.5))
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #909090;
+}
+
+.gradient-custom-for-page {
+    /* fallback for old browsers */
+    background: #e2feda;
+    /*    background: #e9defa;*/
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(23, 222, 250, 0.5), rgba(53, 255, 209, 0.58));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(233, 222, 250, 0.5), rgba(253, 255, 209, 0.5))
+}
+
+.carousel {
+    width: 300px;
+}
+
+.carousel-item {
+    height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 300px;
+    min-height: 300px;
+}
+
+.carousel-control-prev-icon {
+    height: 300px;
+}
